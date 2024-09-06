@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.pic18f57q43-adcc-spike-detection-callbacks-mcc",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "pic18f57q43-adcc-spike-detection-callbacks-mcc",
         "projectName": "pic18f57q43-adcc-spike-detection-callbacks-mcc",
         "shortDescription": "The ADCC Spike Detection Example, of the MCC Melody ADCC Example Component, used in the Polled implementation. ADCC Spike Detection is visualized with the Data Streamer. Modify the Spike Detection Sensitivity to observe the change in sensitivity.",
         "ide": {
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.24.430"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": "^5.7.1"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,20 @@
             }
         },
         "author": "Glen Nilsen",
-        "peripherals": [],
-        "keywords": [],
+        "peripherals": [
+            "ADCC",
+            "GPIO",
+            "UART"
+        ],
+        "keywords": [
+            "Data Visualizer",
+            "MPLAB Data Visualizer",
+            "ADC",
+            "UART",
+            "Getting Started",
+            "Melody",
+            "MCC Melody"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
