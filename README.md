@@ -10,6 +10,14 @@
 
 In the [ADCC Spike Detection Example](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES.RUNNING.ADCC.SPIKE&version=latest&redirect=true "Analog-to-Digital Converter with Computation (ADCC) Spike Detection Example"), ADC with Computation Spike Detection is visualized with the Data Streamer. The spike detection can be modified to observe the change in sensitivity to the rate of change of the ADC samples. Using a Callback Design Pattern, a change (above a set threshold) in the ADC result between successive conversions represents a \"spike\". Every 100 ms a timer callback starts an ADC conversion. If a spike occurs, `adcResult_lastSpike` and `adcSpikeCount` are updated in ADC Spike callback and a flag is set to send a Data Streamer frame.
 
+## Video Building This Example 
+
+[![Video Building this Example](images/7_ADC-Spike-Detect-Callbacks-VideoImage.png)](https://youtu.be/A2-QFtL3ogE?list=PLtQdQmNK_0DTA08RmyuJH4dyNrYGDGi0l)
+
+**Video:** [Introducing MCC Melody Example Components](https://youtu.be/zK5jLiIIYvE?list=PLtQdQmNK_0DTA08RmyuJH4dyNrYGDGi0l)
+(while building the Polled version of the Timer Toggle LED example).  
+
+
 ## MCC Melody Example Components
 Example Components are a tight integration of learning material directly into MCC. This allows users to conveniently place configuration instructions side-by-side to the components they are configuring. For more information, refer to the [MCC Melody Example Components Introduction](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=MCC.MELODY.EXAMPLES&version=latest&redirect=true). 
 
